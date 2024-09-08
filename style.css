@@ -1,0 +1,114 @@
+body {
+    background-color: #f4f7c5;
+    font-family: Helevtica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: Fredoka, sans-serif;
+    box-shadow: 5px 5px 7px 3px beige;
+    width: 16%;
+    border-radius: 30%;
+    height: 50%;
+    text-shadow:
+    -1px -1px 0px teal,
+    1px -1px 0px teal,
+    -1px 1px 0px teal,
+    1px 1px 0px teal;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 8px;
+}
+
+
+body > header {
+    background-color:#AACDBE;
+    color: beige;
+    /* previously rgb 18, 162, 188*/
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 8px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body > header > nav > ul > li > a:hover {
+    color: darksalmon;
+}
+
+.navbutton{
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 3px teal,
+    1px -1px 3px teal,
+    -1px 1px 3px teal,
+    1px 1px 3px teal;
+    padding: 12px;
+    border: 1px solid darksalmon;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: #AACDBE;
+    display: flex;
+}
+
+#footer-ul {
+    list-style: none;
+    display: flex;
+}
+
+#footer-ul > div > li {
+    margin-left: 20px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#div-of-articles-and-aside {
+    display: flex;
+}
+
+#div-of-articles-and-aside > aside {
+    padding: 25px;
+}
